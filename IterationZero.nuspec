@@ -16,13 +16,13 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="content\Build.bat" target="content\temp\Build.bat" />
-        <file src="content\BuildAndPause.bat" target="content\temp\BuildAndPause.bat" />
-        <file src="content\default.ps1" target="content\temp\default.ps1" />
-        <file src="content\Deploy.bat" target="content\temp\Deploy.bat" />
-        <file src="content\DeployAndPause.bat" target="content\temp\DeployAndPause.bat" />
-        <file src="content\Test.bat" target="content\temp\Test.bat" />
-        <file src="content\TestAndPause.bat" target="content\temp\TestAndPause.bat" />
+        <file src="content\Build.bat" target="content\iterationzero\Build.bat" />
+        <file src="content\BuildAndPause.bat" target="content\iterationzero\BuildAndPause.bat" />
+        <file src="content\default.ps1" target="content\iterationzero\default.ps1" />
+        <file src="content\Deploy.bat" target="content\iterationzero\Deploy.bat" />
+        <file src="content\DeployAndPause.bat" target="content\iterationzero\DeployAndPause.bat" />
+        <file src="content\Test.bat" target="content\iterationzero\Test.bat" />
+        <file src="content\TestAndPause.bat" target="content\iterationzero\TestAndPause.bat" />
         <file src="tools\Init.ps1" target="tools\Init.ps1" />
         <file src="tools\Install.ps1" target="tools\Install.ps1" />
         <file src="tools\Uninstall.ps1" target="tools\Uninstall.ps1" />

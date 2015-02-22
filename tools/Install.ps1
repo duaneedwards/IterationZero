@@ -5,7 +5,7 @@ Write-Host $debugString
  
 $fileInfo = new-object -typename System.IO.FileInfo -ArgumentList $projectFullName
 $projectDirectory = $fileInfo.DirectoryName
-$tempDirectory = "temp"
+$tempDirectory = "iterationzero"
 $sourceDirectory = "$projectDirectory\$tempDirectory"
 Write-Host $sourceDirectory
  
