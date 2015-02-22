@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>IterationZero</id>
+        <version>0.0.1</version>
+        <authors>Duane Edwards</authors>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/duaneedwards/IterationZero</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>IterationZero will provide you with an initial base configuration for building, testing and deploying a Visual Studio Project.
+		Leveraging psake for integration and nunit for testing.
+		</description>
+    </metadata>
+    <files>
+        
+    </files>
+</package>
