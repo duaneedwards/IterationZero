@@ -24,8 +24,14 @@ if (test-path $sourceDirectory -pathtype container)
  Write-Host "Deleting $sourceDirectory"
  remove-item $sourceDirectory -recurse
 }
+
+# try to set the default project to build
+$buildFile = "$destinationDirectory\default.ps1"
+$projectName = $project.Name
+$projectName = $projectName -replace ".Tests", ""
+(Get-Content $buildFile) -replace 'placeholderproject', $projectName | Out-File $buildFile
  
-$debugString = "install.ps1 complete" + $projectFullName
+$debugString = "install.ps1 complete " + $projectFullName
 Write-Host $debugString
 
 # sourced from ryan vice: http://www.vicesoftware.com/nuget/creating-a-nuget-package-that-will-install-files-relative-to-the-solution/

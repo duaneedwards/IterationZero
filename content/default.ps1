@@ -1,5 +1,5 @@
 properties {
-    $projectName = "unknown"
+    $projectName = "placeholderproject"
     $testProjectName = "$projectName.Tests"
     $unitTestAssembly = "$testProjectName.dll"
     $projectConfig = "Release"
