@@ -8,10 +8,15 @@
         <projectUrl>https://github.com/duaneedwards/IterationZero</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>IterationZero will provide you with an initial base configuration for building, testing and deploying a Visual Studio Project.
-		Leveraging psake for integration and nunit for testing.
-		</description>
+		Leveraging psake for integration and nunit for testing.</description>
     </metadata>
     <files>
-        
+        <file src="content\Build.bat" target="content\Build.bat" />
+        <file src="content\BuildAndPause.bat" target="content\BuildAndPause.bat" />
+        <file src="content\default.ps1" target="content\default.ps1" />
+        <file src="content\Deploy.bat" target="content\Deploy.bat" />
+        <file src="content\DeployAndPause.bat" target="content\DeployAndPause.bat" />
+        <file src="content\Test.bat" target="content\Test.bat" />
+        <file src="content\TestAndPause.bat" target="content\TestAndPause.bat" />
     </files>
 </package>
