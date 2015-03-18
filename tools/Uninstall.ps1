@@ -7,12 +7,13 @@ $fileInfo = new-object -typename System.IO.FileInfo -ArgumentList $projectFullNa
 $projectDirectory = $fileInfo.DirectoryName
 $destinationDirectory = "$projectDirectory\.."
 Write-Host "Deleting IterationZero files from " + $destinationDirectory
-remove-item $destinationDirectory\Build.ps1
+remove-item $destinationDirectory\.editorconfig
+remove-item $destinationDirectory\Build.bat
 remove-item $destinationDirectory\BuildAndPause.bat
 remove-item $destinationDirectory\default.ps1
-remove-item $destinationDirectory\Deploy.ps1
+remove-item $destinationDirectory\Deploy.bat
 remove-item $destinationDirectory\DeployAndPause.bat
-remove-item $destinationDirectory\Test.ps1
+remove-item $destinationDirectory\Test.bat
 remove-item $destinationDirectory\TestAndPause.bat
  
 $debugString = "Uninstall.ps1 complete for " + $projectFullName

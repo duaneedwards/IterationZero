@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>IterationZero</id>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
         <authors>Duane Edwards</authors>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/duaneedwards/IterationZero</projectUrl>
@@ -16,12 +16,13 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="content\Build.ps1" target="content\iterationzero\Build.ps1" />
+		<file src="content\.editorconfig" target="content\iterationzero\.editorconfig" />
+        <file src="content\Build.bat" target="content\iterationzero\Build.bat" />
         <file src="content\BuildAndPause.bat" target="content\iterationzero\BuildAndPause.bat" />
         <file src="content\default.ps1" target="content\iterationzero\default.ps1" />
-        <file src="content\Deploy.ps1" target="content\iterationzero\Deploy.ps1" />
+        <file src="content\Deploy.bat" target="content\iterationzero\Deploy.bat" />
         <file src="content\DeployAndPause.bat" target="content\iterationzero\DeployAndPause.bat" />
-        <file src="content\Test.ps1" target="content\iterationzero\Test.ps1" />
+        <file src="content\Test.bat" target="content\iterationzero\Test.bat" />
         <file src="content\TestAndPause.bat" target="content\iterationzero\TestAndPause.bat" />
         <file src="tools\Init.ps1" target="tools\Init.ps1" />
         <file src="tools\Install.ps1" target="tools\Install.ps1" />
